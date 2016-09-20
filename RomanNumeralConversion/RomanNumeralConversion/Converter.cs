@@ -9,6 +9,7 @@ namespace RomanNumeralConversion
         {
             ConverterService converter = new ConverterService();
 
+            //Infinite loop
             while (true)
             {
                 Console.WriteLine("Please input a value:");
