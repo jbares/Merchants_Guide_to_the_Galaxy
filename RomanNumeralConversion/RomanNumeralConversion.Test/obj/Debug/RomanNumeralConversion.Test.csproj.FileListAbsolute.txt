@@ -1,8 +1,0 @@
-C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion.Test\obj\Debug\RomanNumeralConversion.Test.csprojResolveAssemblyReference.cache
-C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion.Test\bin\Debug\RomanNumeralConversion.Test.dll
-C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion.Test\bin\Debug\RomanNumeralConversion.Test.pdb
-C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion.Test\obj\Debug\RomanNumeralConversion.Test.dll
-C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion.Test\obj\Debug\RomanNumeralConversion.Test.pdb
-C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion.Test\bin\Debug\RomanNumeralConversion.Services.dll
-C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion.Test\bin\Debug\RomanNumeralConversion.Services.pdb
