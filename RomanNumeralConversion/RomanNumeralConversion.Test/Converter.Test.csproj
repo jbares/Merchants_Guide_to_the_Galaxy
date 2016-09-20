@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RomanNumeralConversion.Services\RomanNumeralConversion.Services.csproj">
+    <ProjectReference Include="..\RomanNumeralConversion.Services\Converter.Services.csproj">
       <Project>{372ca3a8-7a64-4385-bfb5-5636171b1d12}</Project>
-      <Name>RomanNumeralConversion.Services</Name>
+      <Name>Converter.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralConversion", "RomanNumeralConversion\RomanNumeralConversion.csproj", "{123F96C8-67F7-4BAC-9453-61553F41E751}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter", "RomanNumeralConversion\Converter.csproj", "{123F96C8-67F7-4BAC-9453-61553F41E751}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralConversion.Test", "RomanNumeralConversion.Test\RomanNumeralConversion.Test.csproj", "{E8D12AD9-8A55-4AD0-9A98-12725162AB51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter.Test", "RomanNumeralConversion.Test\Converter.Test.csproj", "{E8D12AD9-8A55-4AD0-9A98-12725162AB51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumeralConversion.Services", "RomanNumeralConversion.Services\RomanNumeralConversion.Services.csproj", "{372CA3A8-7A64-4385-BFB5-5636171B1D12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter.Services", "RomanNumeralConversion.Services\Converter.Services.csproj", "{372CA3A8-7A64-4385-BFB5-5636171B1D12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

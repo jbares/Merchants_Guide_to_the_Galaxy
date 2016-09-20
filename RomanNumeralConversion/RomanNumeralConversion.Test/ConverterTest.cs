@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RomanNumeralConversion.Services;
+using Converter.Services;
 
-namespace RomanNumeralConversion.Test
+namespace Converter.Test
 {
     [TestClass]
     public class ConverterTest

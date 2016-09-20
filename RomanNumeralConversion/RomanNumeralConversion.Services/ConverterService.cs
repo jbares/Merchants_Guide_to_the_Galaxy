@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace RomanNumeralConversion.Services
+namespace Converter.Services
 {
     public class ConverterService
     {        

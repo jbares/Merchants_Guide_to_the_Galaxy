@@ -1,7 +1,7 @@
 ﻿using System;
-using RomanNumeralConversion.Services;
+using Converter.Services;
 
-namespace RomanNumeralConversion
+namespace Converter
 {
     class Converter
     {
