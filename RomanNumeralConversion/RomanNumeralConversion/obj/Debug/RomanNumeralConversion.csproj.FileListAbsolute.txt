@@ -1,0 +1,6 @@
+c:\users\jbares\documents\visual studio 2013\Projects\RomanNumeralConversion\RomanNumeralConversion\bin\Debug\RomanNumeralConversion.exe.config
+c:\users\jbares\documents\visual studio 2013\Projects\RomanNumeralConversion\RomanNumeralConversion\bin\Debug\RomanNumeralConversion.exe
+c:\users\jbares\documents\visual studio 2013\Projects\RomanNumeralConversion\RomanNumeralConversion\bin\Debug\RomanNumeralConversion.pdb
+c:\users\jbares\documents\visual studio 2013\Projects\RomanNumeralConversion\RomanNumeralConversion\obj\Debug\RomanNumeralConversion.csprojResolveAssemblyReference.cache
+c:\users\jbares\documents\visual studio 2013\Projects\RomanNumeralConversion\RomanNumeralConversion\obj\Debug\RomanNumeralConversion.exe
+c:\users\jbares\documents\visual studio 2013\Projects\RomanNumeralConversion\RomanNumeralConversion\obj\Debug\RomanNumeralConversion.pdb
