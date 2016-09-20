@@ -1,9 +1,9 @@
-Author: Jack Bares
+﻿Author: Jack Bares
 Date: 20/09/2016
 Client: ThoughtWorks
 Problem: Problem Three: Merchant's Guide to the Galaxy
 
-I essentially started off by creating my solution in visual studios. I created the basic main project then a services project and finally a test project.
+I essentially started off by creating my solution in visual studios. I created the solution structure then began with writing out the tests.
 
 My goal then was to make a roman numeral conversion program to simplify the solution before I adapted it to fit the specifics of the problem itself e.g. the alien language and material values.
 
