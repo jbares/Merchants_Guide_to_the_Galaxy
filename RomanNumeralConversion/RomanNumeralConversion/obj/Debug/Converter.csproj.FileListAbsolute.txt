@@ -6,3 +6,6 @@ C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversio
 C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion\obj\Debug\Converter.csprojResolveAssemblyReference.cache
 C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion\obj\Debug\RomanNumeralConversion.exe
 C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion\obj\Debug\RomanNumeralConversion.pdb
+C:\Users\jbares\Documents\GitHub\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion\bin\Debug\RomanNumeralConversion.exe.config
+C:\Users\jbares\Documents\GitHub\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion\obj\Debug\RomanNumeralConversion.exe
+C:\Users\jbares\Documents\GitHub\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion\obj\Debug\RomanNumeralConversion.pdb
