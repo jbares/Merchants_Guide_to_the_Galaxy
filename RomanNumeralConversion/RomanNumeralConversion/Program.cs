@@ -41,6 +41,7 @@ namespace RomanNumeralConversion
                     {
                         materialValue = entry.Value;
                         input = input.Replace(entry.Key, "");
+                        break;
                     }
                 }
 
