@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace RomanNumeralConversion
+namespace RomanNumeralConversion.Services
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
+    public class ConverterService
+    {        
+        public string OutputMessage(string input)
+        {            
             Regex rgx = new Regex("^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$");
             Dictionary<string, string> translation = new Dictionary<string, string>();
             translation.Add("I", "glob");
@@ -20,61 +16,46 @@ namespace RomanNumeralConversion
             Dictionary<string, double> material = new Dictionary<string, double>();
             material.Add("silver", 17);
             material.Add("gold", 14450);
-            material.Add("iron", 195.5);            
+            material.Add("iron", 195.5);
 
-            string inputMsg = "Please input a value:";
+            string outputMessage = input;
+            input = input.ToLower();            
+            double materialValue = 1;
 
-            while (true)
+            foreach (KeyValuePair<string, string> entry in translation)
             {
-                Console.WriteLine(inputMsg);
-                string input = Console.ReadLine().ToLower();
-                string outputMessage = input;
-                double materialValue = 1;
-
-                foreach (KeyValuePair<string, string> entry in translation)
+                input = input.Replace(entry.Value, entry.Key);
+            }
+            foreach (KeyValuePair<string, double> entry in material)
+            {
+                if (input.Contains(entry.Key))
                 {
-                    input = input.Replace(entry.Value, entry.Key);
-                }
-                foreach (KeyValuePair<string, double> entry in material)
-                {
-                    if(input.Contains(entry.Key))
-                    {
-                        materialValue = entry.Value;
-                        input = input.Replace(entry.Key, "");
-                        break;
-                    }
-                }
-
-                input = Regex.Replace(input, @"\s+", "");
-
-                if (input.ToLower() == "exit")
-                {
+                    materialValue = entry.Value;
+                    input = input.Replace(entry.Key, "");
                     break;
                 }
-                else if (!rgx.IsMatch(input) || string.IsNullOrEmpty(input))
-                {
-                    inputMsg = "Invalid input, please try again:";
-                    continue;
-                }
-                else
-                {
-                    inputMsg = "Please input a value:";
-                }
+            }
 
-                int outputValue = ConvertRNToInt(input);
-                if(materialValue > 1)
-                {
-                    double credits = outputValue * materialValue;
-                    Console.WriteLine(outputMessage + " is " + credits.ToString("n2") + " Credits");
-                }
-                else
-                {                    
-                    Console.WriteLine(outputMessage + " is " + outputValue.ToString("n2"));
-                }                
+            input = Regex.Replace(input, @"\s+", "");
+
+            if (!rgx.IsMatch(input) || string.IsNullOrEmpty(input))
+            {
+                return "I have no idea what you are talking about";                
+            }            
+
+            int outputValue = ConvertRNToInt(input);
+            if (materialValue > 1)
+            {
+                double credits = outputValue * materialValue;
+                return outputMessage + " is " + credits.ToString("n2") + " Credits";
+            }
+            else
+            {
+                return outputMessage + " is " + outputValue.ToString("n2");
             }
         }
 
-        static int ConvertRNToInt(string input)
+        public int ConvertRNToInt(string input)
         {
             char[] array = input.ToCharArray();
             List<char> charList = new List<char>(array);

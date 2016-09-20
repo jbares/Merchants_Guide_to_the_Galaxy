@@ -10,3 +10,5 @@ C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversio
 C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion\bin\Debug\RomanNumeralConversion.exe
 C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion\bin\Debug\RomanNumeralConversion.pdb
 C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion\obj\Debug\RomanNumeralConversion.csprojResolveAssemblyReference.cache
+C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion\bin\Debug\RomanNumeralConversion.Services.dll
+C:\Users\jbares\Source\Repos\Merchants_Guide_to_the_Galaxy\RomanNumeralConversion\RomanNumeralConversion\bin\Debug\RomanNumeralConversion.Services.pdb
